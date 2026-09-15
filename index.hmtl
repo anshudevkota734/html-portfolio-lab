@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Anshu Devkota - Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Anshu Devkota</h1>
+        <h2>Grade 11 Student & Creative Designer</h2>
+    </header>
+
+    <main>
+        <!-- SECTION 1: Text Formatting & Headings -->
+        <section>
+            <h3>About Me</h3>
+            <h4>Academic Background</h4>
+            <h5>Creative Hobbies</h5>
+            <h6>Future Aspirations</h6>
+
+            <p>
+                Hello! My name is <strong>Anshu Devkota</strong>. I am currently a Grade 11 student studying at <em>St. Xavier's College</em> in Maitighar. 
+                I have a strong passion for <b>creative arts</b> and <i>digital creation</i>, with a growing interest in <mark>Web Designing</mark>.
+            </p>
+
+            <p>
+                When I am not studying, you can find me expressing my creativity through traditional and digital mediums. 
+                My main hobbies include <strong>painting</strong>, <strong>drawing</strong>, and <strong>sketching</strong>. I also enjoy musical expression and spend time learning to play the <em>piano</em>.
+            </p>
+
+
+        </section>
+
+        
+        <section>
+            <h3>Profile Picture</h3>
+            <img src="IMG_2089.jpeg" alt="Anshu Devkota Profile Image" width="300" height="300">
+        </section>
+
+    
+        <section>
+            <h3>Audio Sample (Piano Practice)</h3>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+    
+        <section>
+            <h3>Video Showcase</h3>
+            <video controls poster="https://via.placeholder.com/500x300" width="500">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="audio/ogg">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- SECTION 5: Advanced Embeds -->
+        <section>
+            <h3>External Embeds & Documents</h3>
+
+            <!-- <object> example for PDF/External Document -->
+            <h4>Embedded Portfolio Document (Object Tag)</h4>
+            <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" width="100%" height="400">
+                <p>Your browser does not support PDF embedding.</p>
+            </object>
+
+            <!-- <embed> example for Media/Graphics -->
+            <h4>Embedded Media (Embed Tag)</h4>
+            <embed src="https://www.w3schools.com/html/mov_bbb.mp4" width="400" height="250">
+
+            <!-- <iframe> example for External Webpages -->
+            <h4>Embedded Web Reference (Iframe Tag)</h4>
+            <iframe src="https://www.wikipedia.org" width="100%" height="300"></iframe>
+        </section>
+    </main>
+
+</body>
+</html>
